@@ -2,17 +2,13 @@
 
 namespace App\Http\Controllers\Frontend\User;
 
-use App\Http\Controllers\Controller;
-
 /**
- * Class DashboardController
- * @package App\Http\Controllers\Frontend
+ * Class DashboardController.
  */
-class DashboardController extends Controller
+class DashboardController
 {
-
     /**
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
      */
     public function index()
     {
